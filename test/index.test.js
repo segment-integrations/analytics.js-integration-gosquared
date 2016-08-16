@@ -248,7 +248,7 @@ describe('GoSquared', function() {
       });
 
       it('should send a transaction', function() {
-        analytics.track('completed order', {
+        analytics.track('order completed', {
           id: 'a9173991',
           total: 90,
           quantity: 10,
